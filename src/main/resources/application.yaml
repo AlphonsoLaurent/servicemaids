@@ -41,7 +41,7 @@ springdoc:
 logging:
   level:
     root: INFO
-    com.miapp: DEBUG  # Logs detallados solo para tus clases
+    com.com.servicemaids: DEBUG  # Logs detallados solo para tus clases
   file:
     name: logs/miaplicacion.log  # Archivo de logs
   pattern:
