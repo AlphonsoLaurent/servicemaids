@@ -1,16 +1,22 @@
+#DATABASE_POOLER_URL: postgres://postgres.duayghzkcbwbxrhahvwn:tNxBPldqojwqw6b6@fly-0-atl.pooler.supabase.com:6543/postgres
+#
+#DATABASE_URL: postgres://postgres:tNxBPldqojwqw6b6@db.duayghzkcbwbxrhahvwn.supabase.co:5432/postgres?sslmode=require
 server:
   port: 8080
 spring:
   application:
     name: servicemaids
   datasource:
-    url: jdbc:postgresql://localhost:5432/togoisperf
-    username: togoisperf_usr
-    password: t0g015P3R
+#    url: jdbc:postgresql://localhost:5432/togoisperf
+    #togoisperf_usr
+    #t0g015P3R
+    username: postgres
+    password: tNxBPldqojwqw6b6
     driver-class-name: org.postgresql.Driver
     hikari:
       maximum-pool-size: 10  # Configuración de HikariCP para conexiones
       schema: "gleamingnest"
+    url: db.duayghzkcbwbxrhahvwn.supabase.co:5432/postgres?sslmode=require
 
   jpa:
     hibernate:
