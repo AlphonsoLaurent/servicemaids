@@ -1,20 +1,5 @@
-#spring:
-#  jpa:
-#    show-sql: false
-#  datasource:
-#    url: "jdbc:postgresql://localhost:5432/togoisperf"
-#    hikari:
-#      jdbc-url: "jdbc:postgresql://localhost:5432/togoisperf"
-#      username: "togoisperf_usr"
-#      password: "t0g015P3R"
-#    name: "togoisperf_usr"
-#    password: "t0g015P3R"
-
-
 server:
   port: 8080
-#  servlet:
-#    context-path:
 spring:
   application:
     name: servicemaids
