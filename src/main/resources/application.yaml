@@ -4,8 +4,11 @@
 server:
   port: 8080
 spring:
+  profiles:
+    active: dev
   application:
     name: servicemaids
+
   datasource:
 #    url: jdbc:postgresql://localhost:5432/togoisperf
     #togoisperf_usr
@@ -16,14 +19,13 @@ spring:
     hikari:
       maximum-pool-size: 10  # Configuración de HikariCP para conexiones
       schema: "gleamingnest"
-    url: db.duayghzkcbwbxrhahvwn.supabase.co:5432/postgres?sslmode=require
+    url: jdbc:postgresql://db.duayghzkcbwbxrhahvwn.supabase.co:5432/postgres?sslmode=require
 
   jpa:
     hibernate:
       ddl-auto: update  # Opciones: validate, update, create, create-drop
     properties:
       hibernate:
-        dialect: org.hibernate.dialect.PostgreSQLDialect
         format_sql: true
         use_sql_comments: true
 
