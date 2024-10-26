@@ -44,5 +44,5 @@ tasks.named('test') {
 	useJUnitPlatform()
 }
 springBoot {
-	mainClass = 'com.togoisperfect.servicemaids.Application'  // Asegúrate de cambiar esto según tu clase principal
+	mainClass = 'com.servicemaids.Application'  // Asegúrate de cambiar esto según tu clase principal
 }
