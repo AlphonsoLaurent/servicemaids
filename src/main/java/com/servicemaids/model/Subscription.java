@@ -7,7 +7,7 @@ import lombok.Data;
 import java.time.LocalDate;
 @Data
 @Entity
-@Schema(name = "gleamingnest")
+@Table(name = "subscription", schema = "gleamingnest")
 public class Subscription {
 
     @Id

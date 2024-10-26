@@ -5,7 +5,7 @@ import lombok.Data;
 
 @Data
 @Entity
-@Schema(name = "gleamingnest")
+@Table(name = "extra_service_catalog", schema = "gleamingnest")
 public class ExtraServiceCatalog {
 
     @Id

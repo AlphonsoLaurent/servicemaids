@@ -7,7 +7,7 @@ import java.time.LocalDate;
 import java.time.LocalTime;
 @Data
 @Entity
-@Schema(name = "gleamingnest")
+@Table(name = "scheduled_service", schema = "gleamingnest")
 public class ScheduledService {
 
     @Id
