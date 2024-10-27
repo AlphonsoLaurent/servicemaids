@@ -18,7 +18,7 @@ spring:
     driver-class-name: org.postgresql.Driver
     hikari:
       maximum-pool-size: 10  # Configuración de HikariCP para conexiones
-      schema: "gleamingnest"
+      schema: "servicemaids"
     url: jdbc:postgresql://db.duayghzkcbwbxrhahvwn.supabase.co:5432/postgres?sslmode=require
 
   jpa:
@@ -28,7 +28,7 @@ spring:
       hibernate:
         format_sql: true
         use_sql_comments: true
-        default_schema: gleamingnest
+        default_schema: servicemaids
 
   flyway:
     enabled: true

@@ -6,7 +6,7 @@ import lombok.Data;
 import java.time.LocalDateTime;
 @Data
 @Entity
-@Table(name = "automated-email", schema = "gleamingnest")
+@Table(name = "automated-email", schema = "servicemaids")
 public class AutomatedEmail {
 
     @Id
