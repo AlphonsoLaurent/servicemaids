@@ -10,7 +10,7 @@ spring:
     name: servicemaids
 
   datasource:
-#    url: jdbc:postgresql://localhost:5432/togoisperf
+    url: jdbc:postgresql://localhost:5432/togoisperf
     #togoisperf_usr
     #t0g015P3R
     username: postgres
@@ -19,7 +19,7 @@ spring:
     hikari:
       maximum-pool-size: 10  # Configuración de HikariCP para conexiones
       schema: "servicemaids"
-    url: jdbc:postgresql://db.duayghzkcbwbxrhahvwn.supabase.co:5432/postgres?sslmode=require
+#    url: jdbc:postgresql://db.duayghzkcbwbxrhahvwn.supabase.co:5432/postgres?sslmode=require
 
   jpa:
     hibernate:
@@ -44,7 +44,7 @@ logging:
     root: INFO
     com.com.servicemaids: DEBUG  # Logs detallados solo para tus clases
   file:
-    name: logs/miaplicacion.log  # Archivo de logs
+    name: logs/servicemaids.log  # Archivo de logs
   pattern:
     console: "%d{yyyy-MM-dd HH:mm:ss} - %msg%n"  # Formato de logs en consola
 
